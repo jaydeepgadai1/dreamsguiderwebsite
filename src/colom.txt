@@ -1,0 +1,300 @@
+<div className="column_i">
+      <h6>Our Strategic IT solutions Deliver -</h6>
+      <div className="containeri">
+     <div className="tab_box">
+     WEB APPLICATION
+    WEB DESINING
+    E-COMMERCE DEVLOPEMEMNT
+     MOBILE APP DEVLOPEMENT
+    DESKTOP APPLICATION
+     SEARCH ENGINE OPTIMIZATION
+    SOCIAL MEDIA MARKETING
+     
+      </div>
+      <div className="content_box">
+        <div className="contenti">
+         
+        </div>
+      </div>
+     </div>
+    </div>
+    
+    <div className="column_ii">
+     
+      
+    </div>
+    
+    <div className="column_iii">
+    <h1>WEB APPLICATION</h1>
+      <p>This is the content of column 3.</p>
+    </div>
+    <Route path="webApplication" element={<WebApplication/>} />
+          <Route path="webDesign" element={<WebDesign/>} />
+          <Route path="eComerce" element={<EComerce/>} />
+          <Route path="mobileApp" element={<MobileApp/>} />
+          <Route path="desktopApp" element={<DesktopApp/>} />
+          <Route path="searchEngine" element={<SearchEngine/>} />
+          <Route path="socialMedia" element={<SocialMedia/>} />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <Router>
+    <div>
+      <Route exact path="/">
+        <Home />
+      </Route>
+
+      <Route path="/about">
+        <OurServices />
+      </Route>
+
+      <Route path="/service">
+        <OurProducts/>
+      </Route>
+
+      <Route path="/contact">
+        <AboutUs />
+      </Route>
+
+      <Route path="/blog">
+        <Blog />
+      </Route>
+   
+
+    <Route path="/contact">
+        <ContactUs />
+      </Route>
+      <hr />
+
+
+
+
+
+      .About_ii{
+  display: flex;
+  margin-bottom: 300px;
+ 
+}
+.About_ii h1{
+  font-size: 45px;
+  font-weight: 900;
+  color:#0066ff;
+  padding-left: 130px;
+ 
+}
+.About_ii h2{
+  line-height: 1.8rem;
+  font-size: 45px;
+  font-weight: 900;
+  padding-left: 130px;
+}
+.border_ii h3{
+  border: 40px solid #a1def5;
+  display:inline-block;
+  justify-content: center;
+ 
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 350px;
+  animation: moveBounce 10s infinite;
+  z-index: -1;
+}
+.border_iii h1{
+  border: 100px  solid#f1f1f1;
+   width: 200px;
+   height: 300px;
+  display:inline-block;
+  justify-content: center;
+  margin-left: 185px;
+ margin-top: -65px;
+  position: absolute;
+  z-index: -2;
+}
+.description h8{
+ 
+ font-size:28px ;
+ padding-top:0;
+ padding-left:200px;
+ 
+}
+.description h9{
+ font-size:  28px ;
+ padding-top:0 ;
+ padding-left: 300px;
+}
+
+
+ /* <footer className="footer">
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-logo">
+            {/* Insert your company logo here 
+            <img src={logo} alt="Company Logo" />
+          </div>
+          <div className="footer-links">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">Services</a></li>
+              <li><a href="/contact">About Us</a></li>
+              <li><a href="/service">Our Products</a></li>
+            </ul>
+          </div>
+          <div className="footer-contact">
+            <p>Contact Us:</p>
+            <p>Email:contact@dreamsguider.com</p>
+            <p>Phone:9373346490</p>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
+    </footer> */
+
+
+
+
+
+
+
+
+
+
+    .bottom-nav-bar {
+  position: fixed;
+  
+  top: auto;
+  left: 250px;
+  right: 250px;
+  bottom: 10px;
+  height: 70px;
+
+  margin :auto;
+  border: solid #0c0c0c 1px;
+  background: #fff;
+  background: rgb(255 255 255/1);
+  text-align: center;
+  display: block;
+  border: 2px solid var(--primary);
+  border: 0;
+  border-radius: 25px;
+  display: flex;
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0/20%), 0 0 10px rgb(255 255 255/30%);
+    box-shadow: 0 0 10px rgb(0 0 0/20%), 0 0 10px rgb(255 255 255/30%);
+    z-index: 99991;
+  
+
+}
+
+.fonts_home ul {
+  width:800px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: skyblue;
+  
+}
+
+  
+.services_i{
+
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer.js
+
+import React from 'react';
+import { FaInstagram, FaFacebook, FaWhatsapp, FaLinkedin, FaPhone, FaEnvelope } from 'react-icons/fa';
+import './Footer.css';
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      {/* Section 1: Social Media Icons */}
+      <div className="social-icons">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon" />
+          Instagram
+        </a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="icon" />
+          Facebook
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="icon" />
+          Whatsapp
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icon" />
+          LinkedIn
+        </a>
+      </div>
+
+
+      {/* Section 2: Office Addresses */}
+      <div className="office-addresses">
+        <p>Office 1: 123 Main Street, City A, Country</p>
+        <p>Office 2: 456 Second Street, City B, Country</p>
+      </div>
+
+      {/* Section 3: Phone and Email */}
+      <div className="contact-info">
+        <p>
+          <FaPhone className="icon" /> +1 234 567 890
+        </p>
+        <p>
+          <FaEnvelope className="icon" /> info@example.com
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
+
+
+
+
+
+
+
+
+
+ <h2>Our Offices</h2>
+            <h3>DreamsGuider.com</h3>
+            <p> B.J. Vikhe Patil PLazza,</p>
+            <p> Loni Tal-Rahata Dist_A.Nagar</p>
+            <p> Pincode-413713</p>
+            <h4>DreamsGuiderEdu.com</h4>
+            <p>Banner,Pune-411045</p>

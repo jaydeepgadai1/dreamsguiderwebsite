@@ -1,0 +1,130 @@
+/* App.css */
+@media screen and (max-width: 600px) {
+.container{
+ display: flex;
+  margin-top: 0px !important;
+  margin-bottom: -420px!important;
+}
+.firstcolmn{
+  margin-top: 0px;
+  width: 100px !important;
+  height: 400px;
+}
+.item-links {
+
+  flex-direction: column !important;
+  margin-left: -10px;
+  line-height: 1.0 !important;
+  margin-top: 5px !important; /* Display items vertically */
+   /* Adjust the spacing between items */
+}
+.item-links a {
+  text-decoration: none; /* Remove default link underline */
+  color: #fbf9f9; /* Adjust link color */
+  padding: 0px !important;
+ font-weight: 900;
+  padding-left: 0px !important;
+  font-size: 9px !important; /* Adjust font size */
+  cursor: pointer;
+}
+.firstcolmn h1{
+  font-size: 11px !important;
+  margin-left: -10px;
+}
+
+
+
+
+}
+body {
+    font-family: 'Poppins';font-size: 22px;
+    
+  }
+  .container {
+    display: flex;
+    background-color: rgb(175, 205, 209);
+    justify-content: space-around;
+    height: 120vh;
+    transition: background-color 0.3s;
+  }
+  
+ .firstcolmn{
+    width: 410px;
+    
+ }
+  .section {
+    flex: 1;
+    padding: 20px;
+    
+    margin: 10px;
+  }
+  
+  .item-creation {
+    background-color: #8f6666;
+  }
+  
+  .item-creation a {
+    padding: 22px;
+    text-decoration: none; /* Remove default link underline */
+    color: #222121; /* Adjust link color */
+    cursor: pointer;
+  }
+  
+  .item-creation a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .image-display img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-display p {
+    font-size: 13px;
+    color: #333;
+  }
+  
+  /* Add this to your CSS file */
+  .item-links {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    margin-top: 25px; /* Display items vertically */
+     /* Adjust the spacing between items */
+  }
+  
+  .item-links a {
+    text-decoration: none; /* Remove default link underline */
+    color: #fbf9f9; /* Adjust link color */
+    padding: 4px;
+   font-weight: 900;
+    padding-left: 20px;
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer;
+  }
+  
+  .item-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Add background colors for each item */
+  .item-links a.A.selected {
+    background-color: lightblue;
+  }
+  
+  .item-links a.B.selected {
+    background-color: lightgreen;
+  }
+  
+  .item-links a.C.selected {
+    background-color: lightcoral;
+  }
+  
+  .item-links a.D.selected {
+    background-color: lightpink;
+  }
+  
+  .section.item-creation.bg-blue {
+    background-color: lightblue;
+  }
+  

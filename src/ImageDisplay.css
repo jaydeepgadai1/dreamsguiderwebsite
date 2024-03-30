@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+
+
+.w3-animate-top{
+margin-top: 50px;
+
+}
+.animated.img {
+    width: 500px !important;
+    height: 700px !important;
+}
+}

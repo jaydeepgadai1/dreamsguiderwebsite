@@ -1,0 +1,158 @@
+/* Footer.css */
+@media screen and (max-width: 600px) {
+.footer{
+  height: 300px;
+  padding: 0px !important;
+  margin-bottom: 10px;
+  margin-left: 0px !important;
+}
+.social-icons{
+  margin-left: 10px !important;
+  
+  font-size: 12px !important;
+  justify-content: none !important;
+  align-items: none !important;
+  
+}
+.social-icons h2{
+  font-size: 15px !important;
+ 
+  line-height: 1.2 !important;
+  margin-top: 0px !important;
+}
+.office-addresses {
+  margin-top: 0px !important;
+  margin-bottom: 20px;
+  margin-left: 30px !important;
+}
+.office-addresses p{
+  font-size: 12px !important;
+}
+.office-addresses h4{
+  font-size: 12px !important;
+  margin-top: 20px !important;
+  
+}
+.office-addresses h3{
+  font-size: 12px !important;
+  font-weight: 600;
+ text-align: left;
+ margin-bottom: 10px;
+ line-height: 0 !important;
+}
+.office-addresses h6{
+  font-size: 17px !important;
+  margin-top: -29px !important;
+  margin-bottom: 30px !important;
+  font-weight: 600;
+  text-align: left;
+  line-height: 0 !important;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-right:0px ;
+}
+.contact-info h5{
+  margin-top: -105px !important;
+  margin-bottom: 15px;
+  font-size: 15px !important;
+  font-weight: 600;
+  text-align: left;
+  line-height: 0 !important;
+}
+.contact-info p{
+  font-size: 12px !important;
+}
+.icon{
+
+}
+
+
+
+
+
+
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.social-icons h2{
+  font-size: 24px;
+ margin-top: -52px;
+ font-weight: 600;
+ text-align: left;
+ line-height: 4.0;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.office-addresses {
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+.office-addresses p{
+  font-size: 15px;
+}
+.office-addresses h4{
+  font-size: 17px;
+  margin-top: 15px;
+  
+}
+.office-addresses h3{
+  font-size: 17px;
+  font-weight: 600;
+ text-align: left;
+ line-height: 2.0;
+}
+.office-addresses h6{
+  font-size: 27px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 2.0;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-right:60px ;
+}
+.contact-info h5{
+  margin-top: -120px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 2.0;
+}
+.contact-info p{
+  font-size: 15px;
+}

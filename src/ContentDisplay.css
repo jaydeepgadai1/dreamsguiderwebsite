@@ -1,0 +1,75 @@
+/* Add this to your CSS file */
+@media screen and (max-width: 600px) {
+  .custom-list {
+    list-style-type: square;
+    
+  }
+  .w3-center h2{
+    font-size: 10px !important;
+    line-height: 1.5 !important;
+    font-weight: 500;
+    }
+    .custom-list li {
+      list-style: none;
+    
+      color: #333; 
+      font-size: 9px !important;
+    
+    }
+    .custom-list {
+      flex-direction: column !important;
+      list-style-type: square;
+     
+    }
+
+
+
+
+
+}
+.custom-list {
+    list-style-type: square;
+    font-family: 'Poppins';
+  }
+  
+  .custom-list li {
+    
+    color: #333; 
+    font-size: 15px;
+
+  }
+  .divide p{
+    border: 2px solid rgb(140, 114, 192);  }
+  .w3-center h2{
+    font-size: 30px;
+    line-height: 1.9;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;  }
+  
+ 
+  .section .content-display .h2
+  {
+    text-decoration:none;
+
+  }
+  /* Add this to your CSS file */
+
+
+  .custom-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .custom-list li {
+    margin: 0 10px;
+    padding: 4px; /* Adjust the margin as needed */
+  }
+  .section.underline {
+    border-bottom: 2px solid #ffcc00; /* Customize the underline color */
+    padding-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  
